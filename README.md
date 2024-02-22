@@ -32,6 +32,10 @@ $ mv $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 $ ln -svf $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 ```
 
+### Nota
+
+para poder visualizar bien los iconos (`unicode`) se debe tener instalada una fuente de tipo NerdFonts, referencia: [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
+
 ### Screenshot
 
 ![Screenshot](screenshot.png)
