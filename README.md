@@ -31,3 +31,7 @@ $ mv $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 ```bash
 $ ln -svf $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 ```
+
+### Screenshot
+
+![Screenshot](screenshot.png)
