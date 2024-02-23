@@ -2,15 +2,16 @@
 
 ## Descripción
 
-Esté es un archivo de configuración para darle un estilo a `tmux` \
+Esté es un archivo de configuración para darle un estilo a `tmux`
 
-el `prefix` que usa por defecto este archivo de configuración es `Alt+F` pero puede ser remplazado \
-por `Ctrl+c` solo comentando o eliminando las lineas `4`,`7` y `8`, en caso de querer hacer uso
-de otro prefix pero utilizando `Alt` puedes cambiar la letra `f` de `M-f` que esta en la linea `7` \
-por la que requieras, en caso de querer usar `Ctrl` pero con otra letra puedes cambiar `M-f` por \
-`C-'letra'`, esto solo afectara al prefix no a las funciones que se pueda hacer con el.
+El `prefix` que usa por defecto es `alt+f` pero puede ser remplazado por cualquier otro, ya sea usando \
+`ctrl` o `alt` seguido de cualquier letra, solo se tienen que modificar las lineas `6` `7` y `8` ya que \
+son variables que almacenarán el nuevo prefix, y la forma en la que se dividen los paneles ya sea de \
+forma horizontal o vertical.
 
-### Instalación
+Tomar en cuenta que para usar `ctrl` se usa `C` y para `alt` se utiliza `M` seguido de una letra.
+
+## Instalación
 
 * clonar el repositorio
 
@@ -32,10 +33,10 @@ $ mv $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 $ ln -svf $PWD/tmux.conf/tmux.conf ~/.tmux.conf
 ```
 
-### Nota
+## Nota
 
 para poder visualizar bien los iconos (`unicode`) se debe tener instalada una fuente de tipo NerdFonts, referencia: [https://www.nerdfonts.com/](https://www.nerdfonts.com/)
 
-### Screenshot
+## Screenshot
 
 ![Screenshot](screenshot.png)
